@@ -25,7 +25,7 @@ export default props => {
               }}
             />
             <div className="container">
-              <h2>Daniloo Nikolic</h2>
+              <h2>Danilo Nikolic</h2>
               <p className="title">CEO &amp; Founder</p>
               <p>
                 All-around great guy who loves IPA's and always ready for action
