@@ -1,0 +1,87 @@
+@media (max-width: 1000px) {
+  .sliderMainContainer {
+    width: 0;
+    height: 0;
+  }
+}
+
+@media (min-width: 999px) {
+  .sliderResponsive {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sliderSearchBar {
+    display: none;
+  }
+}
+li.thumb {
+  height: 100px;
+}
+li.slide {
+  height: 550px;
+}
+.slidePics2 {
+  height: 100%;
+}
+button.control-arrow.control-next {
+  width: 100px;
+}
+button.control-arrow.control-prev {
+  width: 100px;
+}
+button.control-arrow.control-prev::before {
+  width: 22px;
+  height: 22px;
+}
+button.control-arrow.control-next::before {
+  width: 22px;
+  height: 22px;
+}
+p.legend {
+  background: red;
+  width: 50%;
+}
+.carousel .slide .legend {
+  background: transparent !important;
+  width: 50% !important;
+}
+.filters {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+.dropDown {
+  width: 200px;
+  height: 40px;
+  background: blue;
+  color: white;
+  margin: 5px;
+}
+.currentHH2 {
+  width: 200px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.searchBar1 {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  border:1px solid grey;
+}
+.searchBar1::placeholder {
+  color: white;
+}
+
+.sl2Searchbar{
+  padding-left: 50px;
+}

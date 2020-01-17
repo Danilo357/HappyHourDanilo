@@ -1,0 +1,296 @@
+.regMainContainer {
+    height: 100vh;
+    width: 100%;
+}
+
+.regWrapper {
+    background-color: rgb(228, 233, 238);
+    border: 1px solid black;
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+/* ---------- regLeftSide ---------- */
+
+.regLeftSide {
+    background-image: url("./../assets/HappyHourPics/girltoasting.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.regLogo {
+    color: white;
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 1vw 0px 0 2vw;
+}
+
+/* ---------- regRightSide ---------- */
+
+.regRightSide {
+    align-content: center;
+    background-color: rgb(228, 233, 238);
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 0;
+}
+
+.regHouseContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vw 4vw 0 0;
+    padding: 0;
+}
+
+a.regHouse {
+    color: royalblue;
+    font-size: 64px;
+    text-align: right;
+}
+
+.regForm {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 0;
+    width: 60%;   
+}
+
+.regForm input {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.regPleaseSignIn {
+    font-size: 2.75vw;
+    font-weight: bold;    
+    margin: 40px 0 40px 0;
+    text-align: center;
+}
+
+.regUserExists {
+    color:red;
+    font-size: 15px;
+    margin:0 10px;
+}
+
+/* ----- loginBottom ----- */
+
+.regBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.regButton {
+    background-color: #008CBA; /* Blue */
+    border-radius:7px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family:Arial;
+    font-size: 2vw;
+    font-weight:bold;
+    margin: 10px 0 0 0;
+    padding: .6vw .9vw;
+    text-align: center;
+    text-decoration: none;
+}
+.regButton:hover {
+    background:linear-gradient(to bottom, yellow 5%, orange 100%);
+    background-color:#f6f6f6;
+}
+.regButton:active {
+    position:relative;
+    top:1px;
+}
+    /* ----- loginBottomRight ----- */
+
+.regBottomRight {
+    display: flex;
+}
+
+.regToLogin {
+    background-color: #4CAF50;
+    border: none;
+    border-radius:7px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight:bold;
+    margin: 10px 0 0 0;
+    padding: .6vw .9vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.regToLogin a {
+    text-decoration: none;
+}
+
+.regToLogin:hover {
+    background:linear-gradient(to bottom, yellow 5%, orange 100%);
+    background-color:#f6f6f6;
+}
+.regToLogin:active {
+    position:relative;
+    top:1px;
+}
+
+/* ----- */
+
+.regRegistrationValidation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.regSpaceHolder {
+    margin: 0;
+    padding: 0;
+}
+
+.regValText {
+    color: red;    
+    font-size: 1.3vw;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.regToTheOtherFormText {
+    font-size: 1.3vw;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+.redstar::placeholder{
+    color:red; 
+}
+
+.white{
+     color: rgb(224, 230, 235)   
+}
+/* ********** Responsive Design ********** */
+
+@media screen and (max-width: 1200px) {
+
+    .regWrapper {
+        display: block;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .regLeftSide {
+        color: red;
+        height: 450px;
+    }
+
+    .regRightSide {
+        margin: 0;
+    }
+
+    .regLogo {
+        color: white;
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .regForm {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .regForm input {
+        font-size: 24px;
+        font-weight: bold;    
+        margin: 10px;
+        padding: 10px 0px 10px 10px;
+    }
+
+    .regPleaseSignIn {
+        font-size: 30px;
+        font-weight: bold;    
+        margin: 10px 0 10px 0;
+        text-align: center;
+    }
+
+    .regBottom {
+        display: flex;
+        align-items: center;
+    }
+
+    .regButton {
+        background-color: #008CBA;
+        border-radius: 7px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        font-family:Arial;
+        font-size: 20px;
+        font-weight:bold;
+        margin: .5vh .3vw;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .regBottomRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .regToLogin {
+        background-color: #4CAF50; 
+        border: 1px solid white;
+        border-radius: 7px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        font-family:Arial;
+        font-size: 20px;
+        font-weight:bold;
+        margin: .5vh .3vw;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .regToLogin a {
+        text-decoration: none;
+    }
+
+    .regRegistrationValidation {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .regValText {
+        color: red;
+        font-size: 14px;
+    }
+
+    .regToTheOtherFormText {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    /* ---------- loginBottom ---------- */
+
+    
+}

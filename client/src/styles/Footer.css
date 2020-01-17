@@ -1,0 +1,297 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  position: relative;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;  
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.footerWrapper {
+  background: rgb(46, 41, 37);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: .5vh;    
+  width: 100%;
+}
+
+.footerWrapper h2 {
+  color: rgb(91, 91, 91);
+  text-align: center;
+}
+
+/* ---------- footerLinks Section 1 ---------- */
+
+.footerLinks {
+  border-bottom: .5vh solid rgb(91, 91, 91);
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinks a {
+  color: rgb(148, 136, 122);
+  font-size: 1vw;
+  margin: .25vh 0 .25vh 0;  
+  padding-left: 2.5vw;
+  text-decoration: none;
+}
+
+/* ---------- footerAddress Section 2 ---------- */
+
+.footerAddress {
+  border-bottom: .5vh solid rgb(91, 91, 91);
+}
+
+.footerAddress p {
+  color: rgb(148, 136, 122); 
+  font-size: 1vw;
+  margin: .25vh 0 .25vh 0;
+  padding-left: 2.5vw;
+}
+
+/* ---------- footerPhone Section 3 ---------- */
+
+.footerPhone {
+  border-bottom: .5vh solid rgb(91, 91, 91);
+}
+
+.footerPhone p {
+  color: rgb(148, 136, 122);
+  font-size: 1vw;
+  margin: .25vh 0 .25vh 0;
+  padding-left: 2.5vw;
+}
+
+/* ---------- footerSocial Section 4 ---------- */
+
+.footerSocial {
+  border-bottom: .5vh solid rgb(91, 91, 91);
+}
+
+.socialWrapper {
+  display: flex;
+  justify-content: center;
+
+}
+
+.socialWrapper a {
+  border-bottom: .2vh solid#C0c0c0;
+  color: #cccc;
+  font-size: 36px;
+  height: 60px;
+  line-height: 1.5;
+  margin: 5px 5px 1px;
+  text-align: center;
+  width: 60px;
+}
+
+/* Facebook */
+.socialWrapper > a:nth-child(1) {
+  background-color:rgb(58,79,138);
+}
+/* Instagram */
+.socialWrapper > a:nth-child(2) {
+  background-color: rgb(196,130,51);
+}
+/* Twitter */
+.socialWrapper > a:nth-child(3) {
+  background-color: rgb(94,132,190);
+}
+/* YouTube */
+.socialWrapper > a:nth-child(4) {
+  background-color: rgb(167,45,33);
+}
+/* Yelp */
+.socialWrapper > a:nth-child(5) {
+  background-color: rgb(167,45,33);
+}
+/* Pinterest */
+.socialWrapper > a:nth-child(6) {
+  background-color: rgb(167,45,33);
+}
+
+/* ---------- footerLinks Section 5 ---------- */
+
+.footerNewsletter {
+  border-bottom: .5vh solid rgb(91, 91, 91);
+}
+
+.footerNewsletter p {
+  color: rgb(148, 136, 122);  
+  padding: 0;
+}
+
+.subsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  padding: 0;
+}
+
+.newsletterTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.emailRequired {
+  color: rgb(148, 136, 122);  
+  font-size: 2vh;
+  margin: .25vh 0 .25vh 0;
+}
+
+.r {
+  color: red;
+  font-weight: bold;
+}
+
+.newsletterConfirmation {
+  color: red;  
+  font-size: 1.1vh;
+  margin: .25vh 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.subsEmail {
+  border: .05vmin solid rgb(158,145,130);
+  font-size: 3vh;
+  margin: .5vh auto;  
+  width: 80%;
+}
+
+.subsButton {
+  background-color: rgb(158,145,130);
+  color: rgb(255,255,255);
+  font-size: 1vh;  
+  margin: .5vh auto;
+  padding: .25vh .5vw;
+}
+
+/* ********** Responsive Design ********** */
+
+@media screen and (max-width: 1200px) {
+
+  .footerWrapper {
+    color: rgb(148, 136, 122);
+    display: block;
+  }
+
+/* ---------- footerLinks Section 1 ---------- */
+
+  .footerLinks a {
+    color: rgb(148, 136, 122);
+    font-size: 2vh;
+    margin: .25vh 0 .25vh 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
+/* ---------- footerAddress Section 2 ---------- */
+
+  .footerAddress p {
+    color: rgb(148, 136, 122);
+    font-size: 2vh;
+    margin: .25vh 0 .25vh 0;
+    padding: 0;
+    text-align: center;
+  }
+
+/* ---------- footerPhone Section 3 ---------- */
+
+  .footerPhone p {
+    color: rgb(148, 136, 122);
+    font-size: 2vh;
+    margin: .25vh 0 .25vh 0;
+    padding: 0;
+    text-align: center;
+  }
+
+/* ---------- footerSocial Section 4 ---------- */
+
+.socialWrapper a {
+  font-size: 18px;  
+  height: 30px;
+  width: 30px;
+}
+
+/* ---------- footerLinks Section 5 ---------- */
+
+  .footerNewsLetter {
+     border-bottom: 2px solid rgb(91, 91, 91);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerNewsletter p {
+    color: rgb(148, 136, 122);    
+    padding: 0;
+  }
+
+  .subsForm {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .newsletterTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;    
+  }
+
+  .emailRequired {
+    color: rgb(148, 136, 122);    
+    font-size: 22px;
+    margin: 5px 0 5px 0;
+  }
+
+  .r {
+    color: red;
+    font-weight: bold;
+  }
+
+  .newsletterConfirmation {
+    color: red;    
+    font-size: 22px;
+    margin: 5px 0 0 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .subsEmail {
+    border: 1px solid rgb(158,145,130);
+    font-size: 2.75vh;
+    margin: 10px auto;    
+    width: 80%;
+  }
+
+  .subsButton {
+    background-color: rgb(158,145,130);
+    color: rgb(255,255,255);
+    font-size: 20px;    
+    margin: 10px auto;
+    padding: 5px 10px;
+  }
+
+}

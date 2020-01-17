@@ -1,0 +1,45 @@
+{
+  "name": "happyhourfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "cd client && yarn start",
+    "start:server": "cd server && yarn start",
+    "start": "concurrently \"yarn run start:server\" \"yarn run start:client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PC-Fullstack-Fall-2019/boilerplate/issues"
+  },
+  "homepage": "https://github.com/PC-Fullstack-Fall-2019/boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "concurrently": "^5.0.0",
+    "firebase": "^7.5.1",
+    "fuse.js": "^3.4.6",
+    "google-map-react": "^1.1.5",
+    "prop-types": "^15.7.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-coverflow": "^0.2.20",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-google-maps-loader": "^4.2.6",
+    "react-google-places-suggest": "^3.9.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-hash-link": "^1.2.2",
+    "use-position": "^0.0.6",
+    "validator": "^12.1.0"
+  },
+  "boilerplate": {
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PC-Fullstack-Fall-2019/boilerplate.git"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+}

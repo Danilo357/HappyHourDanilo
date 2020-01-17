@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#partnerWithUs {
+  margin: 0 auto;
+  padding-left: 10%;
+   width: 100%; 
+}
+
+/* ---------- Start: howItWorksMainContainer ---------- */
+
+.howItWorksMainContainer {
+  width: 100%;
+}
+
+.howItWorksTitle {
+  color: white;
+  font-size: 40px; 
+  margin: 10px auto;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;  
+}
+
+.howItWorksWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;  
+}
+
+.cards {
+  color: white;  
+  padding: 10px;
+}
+
+/* ---------- Start: flipCard ---------- */
+
+.flip-card {
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+  width: 100%;  
+}
+
+.flip-card-inner {
+  box-shadow: 3px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  position: relative;
+  text-align: center;  
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  width: 100%;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.flip-card-front {
+  /* background-color: #bbb; */
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px;  
+  transform: rotateY(180deg);
+}
+
+/* ---------- End: flipCard ---------- */
+
+/* ---------- End: howItWorksMainContainer ---------- */
+
+/* ---------- Start: pricingMainContainer Section ---------- */
+
+.pricingMainContainer {
+  background-color: rgb(51, 51, 51);
+  padding: 20px 0;
+  width: 100%;
+}
+
+#pricingTitle {
+  background-color: rgb(175, 72, 106);
+  margin: 10px auto;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.pricingWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.priceContainer {
+  background-color: white;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.priceContainer p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.priceName {
+  text-align: center;
+}
+
+#happyIcon,
+#happierIcon,
+#happiestIcon {
+  margin: 0 auto;
+}
+
+#green {
+  font-weight: bold;
+}
+
+#trial {
+  background-color: rgb(248, 157, 186);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px auto;  
+  width: 100%;
+}
+
+.happyBtn,
+.happierBtn,
+.happiestBtn {
+  background-color: rgb(175, 72, 106);
+  border:none;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  width: 100%;
+}
+
+.pricingFooter {
+  background-color: rgb(175, 72, 106);
+  font-size: 24px;
+  margin: 10px auto;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  color:white;
+}
+
+.ProfloginHouseContainer {
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2vw 4vw 0 0;
+}
+  
+a.loginHouse {
+  color: royalblue;
+  font-size: 64px;
+  text-align: right;
+}
+
+
+/* ---------- End: pricingMainContainer Section ---------- */

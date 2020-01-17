@@ -1,0 +1,205 @@
+body, html{
+    background-color: white;
+  }
+   
+  .profInputs input, .profInputs textarea, select{ 
+    color:#333;
+    font-size: 23px;
+    font-size: bolder;
+    font-weight: bold;
+      padding-left: 10px;
+      margin:5px 0;
+      width:350px;
+    
+  }
+  
+  
+    .inputs input{
+      padding-left: 10px;
+      border:none;
+    
+    }
+    
+    .prof{
+      background-color: rgb(228, 233, 238);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: auto;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .prof form{
+      width:1200px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    }
+  
+    .prof .profInputs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    }
+  
+    #profileLeft{
+      width:390px;
+      margin-bottom: 60px;
+    }
+  
+    #right, #middlebottom{
+      width:790px;
+    }
+  #rightTop{
+    display: flex;
+  }
+    #rightTop div{
+      width: 390px;
+    }
+    
+  
+    .buttons{
+      margin-top: 30px;
+      margin-right:40px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    
+    }
+
+    .buttons button:focus{
+    outline: none;
+  
+  }
+  
+.norev{
+    justify-content: space-between;  
+    border:none;
+  }
+  
+.hred{
+  color:red;
+}
+   
+  
+.red::placeholder{
+  color:red;
+}
+select.red{
+  color:red;
+}
+    fieldset{
+    border:0;
+  }
+    
+    .middleBottom button{
+      width: 350px;
+      height: 50px;
+      margin-right:10px;
+      background-color:#333;
+      color:white;
+      font-size: 25px;
+      border:none;
+      cursor: pointer;
+    }
+  
+  
+  
+  .dayshr{
+    display: flex;
+    width:750px;
+    margin:10px 0;
+  }
+    .happydays{
+      display: flex;
+      width:390px;
+      flex-direction: row;
+      justify-content: start;
+  flex-wrap: wrap;
+    }
+  .hr{
+    display: flex;
+    justify-content: space-evenly;
+    width: 390px;
+  }
+  
+  .hr input{
+    width:145px;
+  }
+  
+    .happydays label{
+      width: 48px;
+      height: 48px;
+      padding: 0 10px;
+      margin:0;
+      align-content:center;
+      font-size: 18px;
+    }
+    .happydays input{
+      width:30px;
+      height: 30px;
+      margin: 0px;
+    }
+  
+    textarea{
+      height: 150px;
+      resize: none;
+    }
+  
+    .loactioninputs textarea{
+      height:195px;
+    }
+  
+   .st{
+     width:350px;
+     height: 30px;
+     font-size: 18px;
+   }
+   .sd{
+     width:140px;
+     font-size: 15px;
+     height:30px;
+   }
+  
+   .fred{
+     border:1px solid red;
+    
+   }
+  .file{
+    background-color: rgba(112, 106, 106, 0.13);
+    border:1px solid grey;
+    font-weight: bold;
+    color:grey;
+    border-radius: 5px;
+    padding:8px;
+    cursor:pointer;
+    width:145px;
+    margin:10px 0;
+  }
+  
+  .uploadImgsection{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .uploadImgsection .thumbpics{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:350px;
+  }
+  
+.ProfloginHouseContainerP {
+  background-color: rgb(228, 233, 238);
+  display: flex;
+  justify-content: flex-end;
+  padding: 2vw 4vw 0 0;
+}
+  
+a.loginHouseP {
+  color: royalblue;
+  font-size: 64px;
+  text-align: right;
+}

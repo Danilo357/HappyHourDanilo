@@ -1,0 +1,80 @@
+.row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front {
+  background-color: transparent;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.aboutUsStoryContainer {
+  background: white;
+  border: 5px solid white;
+  margin: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.aboutUsMainContainer {
+  background: rgb(224 230 235);
+}
+.column {
+  height: 800px;
+  width: auto;
+  border: 5px solid white;
+  margin: 20px;
+  background: white;
+}
+
+.ainhoaPic {
+  height: 557px;
+}
+.lazPic {
+  height: 557px;
+}
+.daniloPic {
+  height: 557px;
+}
+.mission {
+  font-style: italic;
+  color: red;
+}

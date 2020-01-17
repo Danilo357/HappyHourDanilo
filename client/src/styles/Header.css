@@ -1,0 +1,47 @@
+.headerContainer {
+  background-color: rgb(224, 230, 235);
+}
+
+.headerHouse {
+  background-color: rgb(224, 230, 235);
+  display: flex;
+  justify-content: flex-end;
+  padding: 2vw 4vw 0 0;
+}
+
+a.headerHouse {
+  background-color: rgb(224, 230, 235);
+  color: royalblue;
+  font-size: 64px;
+  text-align: right;
+}
+
+
+.Header {
+  font-size: 20px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0;    
+  width: 100%;
+}
+
+.house {
+  font-size: 40px;    
+  padding: 0px 0px 0px 30px;
+}
+
+.topRight {
+  border: none;    
+  display: flex;
+}
+
+.headerToLogin {
+  margin: 0;
+  padding: 0;
+}
+
+.headerTtoReg {
+  margin: 0;
+  padding: 0;
+}

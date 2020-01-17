@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    border:none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.svpMainContainer {
+    background-color: rgb(224, 230, 235);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 650px;
+    width: 100%;
+}
+
+/* ---------- svpLeftSide ---------- */
+
+.svpLeftSide{
+    background-color: rgb(224, 230, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+    /* ----- svpTopLeft -----*/
+
+.svpInfo {
+    box-shadow: 5px 10px #888888;
+    height: 60vh;
+    width: 80%;
+    background:white;
+}
+
+.svpInfo h1 {
+    background: -webkit-linear-gradient(to right, #4B134F, #C94B4B); 
+    background: linear-gradient(to right, #4B134F, #C94B4B);    
+    color: white;
+    font-size: 2vw;   
+    margin: 0 auto;
+    padding: 1.2vw 0;
+    text-align: center;
+    width: 100%;
+}
+
+.svpInfo p, .middleLeftsvp p{
+    background-color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 1vh 1vw;
+    width: 100%;
+}
+
+/* ---------- GoogleMap ---------- */
+
+.middleLeftsvp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapContainer{
+    box-shadow: 5px 10px #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.middleLeftsvp>div.mapContainer>div:first-child
+{
+    margin:0;
+}
+.svpInfo.gmnoprint {
+    display: none;
+}
+
+/* ---------- svpRightSide ---------- */
+
+.svpRightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.svpImg {
+    box-shadow: 5px 10px #888888;
+    height: 60vh;
+    padding: 0;
+    width: 80%;
+}
+
+.svpMainContainer a{
+    color:black;
+}
